@@ -204,12 +204,6 @@ jobs:
           echo "-define:YARG_TEST_BUILD" >> Assets/csc.rsp
 
       ###########################
-      #Replace icon with nightly#
-      ###########################
-      - name: "[Pre-build] Replace icon with Nightly/Development"
-        run: "cp -f bleedingedge/static/Icon_Development.png Assets/Art/UI/Icon_Stable.png"
-
-      ###########################
       #          Build          #
       ###########################
 
